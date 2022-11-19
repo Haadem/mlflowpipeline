@@ -4,16 +4,23 @@
 
 ## Development
 
+### Instalation
+
+```console
+python3.9 -m venv .venv
+. ./.venv/bin/actiavte
+python -m pip isntall -r requirements.txts
+```
 
 ### Pushing
 
 - Use Black to format
- - 'python -m balck .'
+ - 'python -m black .'
 
 
-# Run Pipelin
+# Run Pipeline
 
 ```console
 python -m pipeline.main
 ```
- 
+
