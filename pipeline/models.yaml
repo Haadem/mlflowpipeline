@@ -1,0 +1,12 @@
+models:
+  RandomForestClassifier:
+    param: 
+      max_depth: 8
+  LogisticRegression:
+    param:
+      random_state: 42
+scoring:
+  precision:
+    class: precision_score
+  roc_auc:
+    class: roc_auc_score
